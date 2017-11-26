@@ -38,8 +38,8 @@ word2sememe_vecs, word2sememe_length, word2average_sememes = load_data.load_hown
 percent = 0.2
 np.random.seed(0)
 train_list, test_list = load_data.train_test(list(word2type.keys()), type2word, word2type, percent)
-pickle.dump(train_list, open('train.bin', 'wb'))
-pickle.dump(test_list, open('test.bin', 'wb'))
+pickle.dump(train_list, open('bin_data/train.bin', 'wb'))
+pickle.dump(test_list, open('bin_data/test.bin', 'wb'))
 test_len = len(test_list)
 all_words = train_list + test_list
 vector_matrix = list(map(lambda word: word2vectors[word], all_words))
