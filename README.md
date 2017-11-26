@@ -10,7 +10,7 @@ This folder `datasets` contains two datasets.
 the original C-LIWC file. Because the original contains part of speech (POS)
 categories such as _verb_, _adverb_, and _auxverb_, we believe it is
 more accurate to utilize POS tagging programs when conducting text analysis
-in a given text, so we delete POS categories in our experiment. Furthermore,
+in a given text. Therefore, we delete POS categories in our experiment. Furthermore,
 the hierarchical structure is slightly different from the original English
 version of LIWC, so we altered the hierarchical structure based on the English LIWC.
 
