@@ -27,7 +27,7 @@ Run the following command for training and testing:
 `python3 train_liwc.py`
 
 If the datasets are in a different folder, please change the path
-[here](https://github.com/thunlp/Auto_CLIWC).
+[here](https://github.com/thunlp/Auto_CLIWC/blob/master/train_liwc.py#L30).
 
 The current code generates different training and testing set every time.
 To reproduce the results in the paper, you can load `train.bin` and `test.bin`
