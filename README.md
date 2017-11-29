@@ -13,6 +13,8 @@ more accurate to utilize POS tagging programs when conducting text analysis
 in a given text. Therefore, we delete POS categories in our experiment. Furthermore,
 the hierarchical structure is slightly different from the original English
 version of LIWC, so we altered the hierarchical structure based on the English LIWC.
+As for the exact meaning of each category, you can refer to [here](https://cliwc.weebly.com/318672103521517312162354529031214503353920363.html)
+and [here](https://liwc.wpengine.com/compare-dictionaries/).
 
 Please note that the above datasets files are for academic and educational use **only**.
 They are **not** for commercial use. If you have any questions, please contact us first
